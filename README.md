@@ -1,0 +1,1 @@
+# AppLovin-MAX-Swift-Package-GoogleAdsManager
