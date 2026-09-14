@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationGoogleAdManagerAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationGoogleAdManagerAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationGoogleAdManagerAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/googleadmanager-adapter/AppLovinMediationGoogleAdManagerAdapter-13.9.0.0.zip",
-            checksum: "680710699869f0cf1e39231b071d15388ec5686334c577bc07af540d66798648"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/googleadmanager-adapter/AppLovinMediationGoogleAdManagerAdapter-13.9.0.1.zip",
+            checksum: "7d52f91b9f87be4816ee3ce41969d28343843cefc7ce109fb4f4e2ca1a228823"
         )
     ]
 )
