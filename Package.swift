@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.10.0")
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.11.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationGoogleAdManagerAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/googleadmanager-adapter/AppLovinMediationGoogleAdManagerAdapter-13.10.0.0.zip",
-            checksum: "9bb7fc4343372fca67ed01c23d8494507de43597574454c03219b59e4831c371"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/googleadmanager-adapter/AppLovinMediationGoogleAdManagerAdapter-13.11.0.0.zip",
+            checksum: "8029f21ca222b509baa78d8e7e3ec1c5c1c3e919208280a1754251b006768f00"
         )
     ]
 )
